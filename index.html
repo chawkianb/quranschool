@@ -1,0 +1,1859 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدرسة قرآنية - مسجد الفضيل الورثلي</title>
+    <meta name="description" content="مدرسة قرآنية بمسجد الفضيل الورثلي - تعليم القرآن الكريم وفق منهج علمي ومنهجية حديثة">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-content">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i data-lucide="book-open"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>مدرسة قرآنية</h1>
+                    <span>مسجد الفضيل الورثلي</span>
+                </div>
+            </div>
+
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+                    <li><a href="#departments" class="nav-link">الأقسام</a></li>
+                    <li><a href="#stats" class="nav-link">إحصائيات</a></li>
+                    <li><a href="#teachers" class="nav-link">إدارة الأساتذة</a></li>
+                    <li><a href="#contact" class="nav-link">تواصل معنا</a></li>
+                </ul>
+            </nav>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="القائمة">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-pattern"></div>
+
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <i data-lucide="star"></i>
+                <span>بركة العلم والقرآن</span>
+            </div>
+
+            <h2 class="hero-title">مرحباً بكم في</h2>
+            <h1 class="hero-main-title">مدرسة القرآن الكريم</h1>
+            <p class="hero-subtitle">بمسجد الفضيل الورثلي - حيث نبني الأجيال على كتاب الله</p>
+
+            <div class="hero-actions">
+                <a href="#departments" class="btn btn-primary">
+                    <i data-lucide="compass"></i>
+                    استكشف الأقسام
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i data-lucide="phone"></i>
+                    تواصل معنا
+                </a>
+            </div>
+
+            <div class="hero-decoration">
+                <svg viewBox="0 0 200 40" class="decoration-svg">
+                    <path d="M0,20 Q50,0 100,20 T200,20" stroke="currentColor" fill="none" stroke-width="2"/>
+                    <circle cx="100" cy="20" r="5" fill="currentColor"/>
+                </svg>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>اكتشف المزيد</span>
+            <i data-lucide="chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section class="departments" id="departments">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">
+                    <i data-lucide="layout-grid"></i>
+                    الأقسام
+                </span>
+                <h2 class="section-title">خريطة الأقسام</h2>
+                <p class="section-description">
+                    تقدم المدرسة أربعة أقسام رئيسية لتلبية احتياجات جميع الفئات العمرية
+                </p>
+            </div>
+
+            <div class="departments-grid">
+                <!-- قسم التحضيري -->
+                <div class="department-card" data-department="preparatory">
+                    <div class="card-icon">
+                        <i data-lucide="baby"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">قسم التحضيري</h3>
+                        <p class="card-description">للتلاميذ في سن ما قبل التمدرس</p>
+                        <div class="card-meta">
+                            <span class="meta-item">
+                                <i data-lucide="users"></i>
+                                <span class="count" data-target="45">0</span> طالب
+                            </span>
+                            <span class="meta-item">
+                                <i data-lucide="calendar"></i>
+                                4-6 سنوات
+                            </span>
+                        </div>
+                        <div class="card-features">
+                            <span class="feature-tag">تربية قرآنية</span>
+                            <span class="feature-tag">حروف وجمل</span>
+                            <span class="feature-tag">ألعاب تعليمية</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline btn-sm" onclick="openModal('preparatory')">
+                            التفاصيل
+                            <i data-lucide="arrow-left"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- قسم محو الأمية -->
+                <div class="department-card" data-department="literacy">
+                    <div class="card-icon">
+                        <i data-lucide="book-open"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">قسم محو الأمية</h3>
+                        <p class="card-description">للكبار أو من فاتهم قطار التعليم</p>
+                        <div class="card-meta">
+                            <span class="meta-item">
+                                <i data-lucide="users"></i>
+                                <span class="count" data-target="30">0</span> طالب
+                            </span>
+                            <span class="meta-item">
+                                <i data-lucide="calendar"></i>
+                                15+ سنة
+                            </span>
+                        </div>
+                        <div class="card-features">
+                            <span class="feature-tag">القرآن الكريم</span>
+                            <span class="feature-tag">القراءة والكتابة</span>
+                            <span class="feature-tag">أساسيات الدين</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline btn-sm" onclick="openModal('literacy')">
+                            التفاصيل
+                            <i data-lucide="arrow-left"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- قسم المتمدرسين -->
+                <div class="department-card department-card-large" data-department="students">
+                    <div class="card-icon">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">قسم المتمدرسين</h3>
+                        <p class="card-description">يشمل فرعين متخصصين</p>
+                        <div class="card-meta">
+                            <span class="meta-item">
+                                <i data-lucide="users"></i>
+                                <span class="count" data-target="120">0</span> طالب
+                            </span>
+                        </div>
+
+                        <div class="sub-branches">
+                            <div class="branch-item">
+                                <div class="branch-icon">
+                                    <i data-lucide="calendar-check"></i>
+                                </div>
+                                <div class="branch-info">
+                                    <h4>فرع متمدرسي الدوام</h4>
+                                    <p>التدريس طوال السنة الدراسية</p>
+                                </div>
+                            </div>
+                            <div class="branch-item">
+                                <div class="branch-icon">
+                                    <i data-lucide="sun"></i>
+                                </div>
+                                <div class="branch-info">
+                                    <h4>فرع المدرسة الصيفية</h4>
+                                    <p>برنامج مكثف خلال فصل الصيف</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-features">
+                            <span class="feature-tag">حفظ القرآن</span>
+                            <span class="feature-tag">التجويد</span>
+                            <span class="feature-tag">التطبيق العملي</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline btn-sm" onclick="openModal('students')">
+                            التفاصيل
+                            <i data-lucide="arrow-left"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- قسم تحفيظ النساء -->
+                <div class="department-card" data-department="women">
+                    <div class="card-icon">
+                        <i data-lucide="heart"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">قسم تحفيظ النساء</h3>
+                        <p class="card-description">حلقات مخصصة للنساء</p>
+                        <div class="card-meta">
+                            <span class="meta-item">
+                                <i data-lucide="users"></i>
+                                <span class="count" data-target="85">0</span> طالبة
+                            </span>
+                            <span class="meta-item">
+                                <i data-lucide="clock"></i>
+                                حصص مسائية
+                            </span>
+                        </div>
+                        <div class="card-features">
+                            <span class="feature-tag">حفظ القرآن</span>
+                            <span class="feature-tag">المراجعة</span>
+                            <span class="feature-tag">السلامة الصوتية</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline btn-sm" onclick="openModal('women')">
+                            التفاصيل
+                            <i data-lucide="arrow-left"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats" id="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="graduation-cap"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number" data-target="280">0</span>
+                        <span class="stat-label">طالب وطالبة</span>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="user-check"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number" data-target="25">0</span>
+                        <span class="stat-label">معلم ومعلمة</span>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="award"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number" data-target="15">0</span>
+                        <span class="stat-label">سنوات خبرة</span>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i data-lucide="book"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number" data-target="4">0</span>
+                        <span class="stat-label">أقسام متخصصة</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">
+                    <i data-lucide="list-checks"></i>
+                    البرامج
+                </span>
+                <h2 class="section-title">برامجنا التعليمية</h2>
+                <p class="section-description">
+                    برامج متنوعة ومتكاملة لتحقيق أفضل النتائج في تحفيظ القرآن الكريم
+                </p>
+            </div>
+
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i data-lucide="brain"></i>
+                    </div>
+                    <h3>برنامج الحفظ</h3>
+                    <p>حفظ القرآن الكريم بالتدرج مع المراجعة المستمرة والتقييم الدوري</p>
+                    <ul class="program-features">
+                        <li><i data-lucide="check"></i> منهجية الحفظ بالتجزئة</li>
+                        <li><i data-lucide="check"></i> اختبارات يومية</li>
+                        <li><i data-lucide="check"></i> تقييم شهري</li>
+                    </ul>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i data-lucide="music"></i>
+                    </div>
+                    <h3>برنامج التجويد</h3>
+                    <p>تعلم أحكام التجويد الصحيح وتطبيقه عملياً في التلاوة</p>
+                    <ul class="program-features">
+                        <li><i data-lucide="check"></i> أحكام النون الساكنة</li>
+                        <li><i data-lucide="check"></i> أحكام الميم الساكنة</li>
+                        <li><i data-lucide="check"></i> المدود بأنواعها</li>
+                    </ul>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i data-lucide="mic"></i>
+                    </div>
+                    <h3>برنامج التلاوة</h3>
+                    <p>طوير مهارات التلاوة بأسلوب صحيح وجميل</p>
+                    <ul class="program-features">
+                        <li><i data-lucide="check"></i> مخارج الحروف</li>
+                        <li><i data-lucide="check"></i> صفات الحروف</li>
+                        <li><i data-lucide="check"></i> التخطيط والتنغيم</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teachers Management Section -->
+    <section class="teachers" id="teachers">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">
+                    <i data-lucide="users"></i>
+                    إدارة الأساتذة
+                </span>
+                <h2 class="section-title">وحدة إدارة الأساتذة</h2>
+                <p class="section-description">
+                    إدارة شاملة لنشاط الأساتذة وتقييم أدائهم وتتبع إنجازاتهم
+                </p>
+            </div>
+
+            <!-- Teachers Grid -->
+            <div class="teachers-grid">
+                <!-- Teacher Card 1 -->
+                <div class="teacher-card" data-teacher="1">
+                    <div class="teacher-header">
+                        <div class="teacher-avatar">
+                            <i data-lucide="user"></i>
+                        </div>
+                        <div class="teacher-info">
+                            <h3>الشيخ أحمد محمد</h3>
+                            <span class="teacher-specialty">قسم المتمدرسين - فرع الدوام</span>
+                        </div>
+                        <div class="teacher-status active">
+                            <span class="status-dot"></span>
+                            نشط
+                        </div>
+                    </div>
+
+                    <div class="teacher-stats-grid">
+                        <div class="teacher-stat">
+                            <span class="stat-value">24</span>
+                            <span class="stat-label">طالب</span>
+                        </div>
+                        <div class="teacher-stat">
+                            <span class="stat-value">18</span>
+                            <span class="stat-label">حاضر</span>
+                        </div>
+                        <div class="teacher-stat">
+                            <span class="stat-value">6</span>
+                            <span class="stat-label">غائب</span>
+                        </div>
+                        <div class="teacher-stat">
+                            <span class="stat-value">92%</span>
+                            <span class="stat-label">نسبة الحضور</span>
+                        </div>
+                    </div>
+
+                    <!-- Progress Counters -->
+                    <div class="progress-section">
+                        <h4 class="progress-title">
+                            <i data-lucide="trending-up"></i>
+                            مستويات حفظ الطلاب
+                        </h4>
+                        <div class="progress-counters">
+                            <div class="progress-counter">
+                                <div class="counter-circle" data-level="5">
+                                    <span class="counter-value">0</span>
+                                </div>
+                                <span class="counter-label">5 أحزاب</span>
+                            </div>
+                            <div class="progress-counter">
+                                <div class="counter-circle" data-level="10">
+                                    <span class="counter-value">0</span>
+                                </div>
+                                <span class="counter-label">10 أحزاب</span>
+                            </div>
+                            <div class="progress-counter">
+                                <div class="counter-circle" data-level="20">
+                                    <span class="counter-value">0</span>
+                                </div>
+                                <span class="counter-label">20 حزب</span>
+                            </div>
+                            <div class="progress-counter">
+                                <div class="counter-circle" data-level="30">
+                                    <span class="counter-value">0</span>
+                                </div>
+                                <span class="counter-label">30 حزب</span>
+                            </div>
+                            <div class="progress-counter">
+                                <div class="counter-circle" data-level="60">
+                                    <span class="counter-value">0</span>
+                                </div>
+                                <span class="counter-label">60 حزب</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Competitions -->
+                    <div class="competitions-section">
+                        <h4 class="competitions-title">
+                            <i data-lucide="trophy"></i>
+                            المسابقات القرآنية
+                        </h4>
+                        <div class="competitions-list">
+                            <div class="competition-item">
+                                <div class="competition-info">
+                                    <span class="competition-name">المسابقة المحلية للتصحيح</span>
+                                    <span class="competition-date">15/06/2025</span>
+                                </div>
+                                <div class="competition-result success">
+                                    <i data-lucide="award"></i>
+                                    المركز الأول
+                                </div>
+                            </div>
+                            <div class="competition-item">
+                                <div class="competition-info">
+                                    <span class="competition-name">مسابقة حفظ المتون</span>
+                                    <span class="competition-date">20/05/2025</span>
+                                </div>
+                                <div class="competition-result">
+                                    <i data-lucide="check-circle"></i>
+                                    مشاركة
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Actions -->
+                    <div class="teacher-actions">
+                        <button class="btn btn-sm btn-outline" onclick="openAttendanceModal(1)">
+                            <i data-lucide="calendar-check"></i>
+                            سجل الحضور
+                        </button>
+                        <button class="btn btn-sm btn-secondary" onclick="printTeacherList(1)">
+                            <i data-lucide="printer"></i>
+                            طباعة القائمة
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Teacher Card 2 -->
+                <div class="teacher-card" data-teacher="2">
+                    <div class="teacher-header">
+                        <div class="teacher-avatar">
+                            <i data-lucide="user"></i>
+                        </div>
+                        <div class="teacher-info">
+                            <h3>الأستاذة فاطمة علي</h3>
+                            <span class="teacher-specialty">قسم تحفيظ النساء</span>
+                        </div>
+                        <div class="teacher-status active">
+                            <span class="status-dot"></span>
+                            نشط
+                        </div>
+                    </div>
+
+                    <div class="teacher-stats-grid">
+                        <div class="teacher-stat">
+                            <span class="stat-value">32</span>
+                            <span class="stat-label">طالبة</span>
+                        </div>
+                        <div class="teacher-stat">
+                            <span class="stat-value">30</span>
+                            <span class="stat-label">حاضرة</span>
+                        </div>
+                        <div class="teacher-stat">
+                            <span class="stat-value">2</span>
+                            <span class="stat-label">غائبة</span>
+                        </div>
+                        <div class="teacher-stat">
+                            <span class="stat-value">94%</span>
+                            <span class="stat-label">نسبة الحضور</span>
+                        </div>
+                    </div>
+
+                    <div class="progress-section">
+                        <h4 class="progress-title">
+                            <i data-lucide="trending-up"></i>
+                            مستويات حفظ الطالبات
+                        </h4>
+                        <div class="progress-counters">
+                            <div class="progress-counter">
+                                <div class="counter-circle" data-level="5">
+                                    <span class="counter-value">0</span>
+                                </div>
+                                <span class="counter-label">5 أحزاب</span>
+                            </div>
+                            <div class="progress-counter">
+                                <div class="counter-circle" data-level="10">
+                                    <span class="counter-value">0</span>
+                                </div>
+                                <span class="counter-label">10 أحزاب</span>
+                            </div>
+                            <div class="progress-counter">
+                                <div class="counter-circle" data-level="20">
+                                    <span class="counter-value">0</span>
+                                </div>
+                                <span class="counter-label">20 حزب</span>
+                            </div>
+                            <div class="progress-counter">
+                                <div class="counter-circle" data-level="30">
+                                    <span class="counter-value">0</span>
+                                </div>
+                                <span class="counter-label">30 حزب</span>
+                            </div>
+                            <div class="progress-counter">
+                                <div class="counter-circle" data-level="60">
+                                    <span class="counter-value">0</span>
+                                </div>
+                                <span class="counter-label">60 حزب</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="competitions-section">
+                        <h4 class="competitions-title">
+                            <i data-lucide="trophy"></i>
+                            المسابقات القرآنية
+                        </h4>
+                        <div class="competitions-list">
+                            <div class="competition-item">
+                                <div class="competition-info">
+                                    <span class="competition-name">مسابقة القراءة الجماعية</span>
+                                    <span class="competition-date">10/06/2025</span>
+                                </div>
+                                <div class="competition-result success">
+                                    <i data-lucide="award"></i>
+                                    المركز الثاني
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="teacher-actions">
+                        <button class="btn btn-sm btn-outline" onclick="openAttendanceModal(2)">
+                            <i data-lucide="calendar-check"></i>
+                            سجل الحضور
+                        </button>
+                        <button class="btn btn-sm btn-secondary" onclick="printTeacherList(2)">
+                            <i data-lucide="printer"></i>
+                            طباعة القائمة
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Teacher Card 3 -->
+                <div class="teacher-card" data-teacher="3">
+                    <div class="teacher-header">
+                        <div class="teacher-avatar">
+                            <i data-lucide="user"></i>
+                        </div>
+                        <div class="teacher-info">
+                            <h3>الشيخ عبدالله سالم</h3>
+                            <span class="teacher-specialty">قسم التحضيري</span>
+                        </div>
+                        <div class="teacher-status">
+                            <span class="status-dot"></span>
+                            متاح
+                        </div>
+                    </div>
+
+                    <div class="teacher-stats-grid">
+                        <div class="teacher-stat">
+                            <span class="stat-value">18</span>
+                            <span class="stat-label">طالب</span>
+                        </div>
+                        <div class="teacher-stat">
+                            <span class="stat-value">16</span>
+                            <span class="stat-label">حاضر</span>
+                        </div>
+                        <div class="teacher-stat">
+                            <span class="stat-value">2</span>
+                            <span class="stat-label">غائب</span>
+                        </div>
+                        <div class="teacher-stat">
+                            <span class="stat-value">89%</span>
+                            <span class="stat-label">نسبة الحضور</span>
+                        </div>
+                    </div>
+
+                    <div class="progress-section">
+                        <h4 class="progress-title">
+                            <i data-lucide="trending-up"></i>
+                            مستويات حفظ الأطفال
+                        </h4>
+                        <div class="progress-counters">
+                            <div class="progress-counter">
+                                <div class="counter-circle" data-level="5">
+                                    <span class="counter-value">0</span>
+                                </div>
+                                <span class="counter-label">5 أحزاب</span>
+                            </div>
+                            <div class="progress-counter">
+                                <div class="counter-circle" data-level="10">
+                                    <span class="counter-value">0</span>
+                                </div>
+                                <span class="counter-label">10 أحزاب</span>
+                            </div>
+                            <div class="progress-counter">
+                                <div class="counter-circle" data-level="20">
+                                    <span class="counter-value">0</span>
+                                </div>
+                                <span class="counter-label">20 حزب</span>
+                            </div>
+                            <div class="progress-counter">
+                                <div class="counter-circle" data-level="30">
+                                    <span class="counter-value">0</span>
+                                </div>
+                                <span class="counter-label">30 حزب</span>
+                            </div>
+                            <div class="progress-counter">
+                                <div class="counter-circle" data-level="60">
+                                    <span class="counter-value">0</span>
+                                </div>
+                                <span class="counter-label">60 حزب</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="competitions-section">
+                        <h4 class="competitions-title">
+                            <i data-lucide="trophy"></i>
+                            المسابقات القرآنية
+                        </h4>
+                        <div class="competitions-list">
+                            <p class="no-competitions">لا توجد مشاركات حتى الآن</p>
+                        </div>
+                    </div>
+
+                    <div class="teacher-actions">
+                        <button class="btn btn-sm btn-outline" onclick="openAttendanceModal(3)">
+                            <i data-lucide="calendar-check"></i>
+                            سجل الحضور
+                        </button>
+                        <button class="btn btn-sm btn-secondary" onclick="printTeacherList(3)">
+                            <i data-lucide="printer"></i>
+                            طباعة القائمة
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Add New Teacher Card -->
+                <div class="teacher-card add-new-card" onclick="showAddTeacherForm()">
+                    <div class="add-new-content">
+                        <div class="add-icon">
+                            <i data-lucide="plus-circle"></i>
+                        </div>
+                        <h3>إضافة أستاذ جديد</h3>
+                        <p>سجل بيانات الأستاذ وطلاب القسم</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">
+                    <i data-lucide="mail"></i>
+                    تواصل معنا
+                </span>
+                <h2 class="section-title">نحن هنا لمساعدتك</h2>
+                <p class="section-description">
+                    تواصل معنا للاستفسار عن الأقسام والبرامج المتاحة
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <div class="contact-content">
+                            <h4>العنوان</h4>
+                            <p>مسجد الفضيل الورثلي - حي النور</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i data-lucide="phone"></i>
+                        </div>
+                        <div class="contact-content">
+                            <h4>الهاتف</h4>
+                            <p dir="ltr">+966 XX XXX XXXX</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i data-lucide="clock"></i>
+                        </div>
+                        <div class="contact-content">
+                            <h4>ساعات العمل</h4>
+                            <p>السبت - الخميس: 8:00 ص - 10:00 م</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">الاسم الكامل</label>
+                        <input type="text" id="name" name="name" required placeholder="أدخل اسمك الكامل">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">رقم الهاتف</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="أدخل رقم هاتفك">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="department">القسم المطلوب</label>
+                        <select id="department" name="department" required>
+                            <option value="">اختر القسم</option>
+                            <option value="preparatory">قسم التحضيري</option>
+                            <option value="literacy">قسم محو الأمية</option>
+                            <option value="students">قسم المتمدرسين</option>
+                            <option value="women">قسم تحفيظ النساء</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group form-group-full">
+                        <label for="message">الرسالة</label>
+                        <textarea id="message" name="message" rows="4" placeholder="اكتب رسالتك هنا..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        <i data-lucide="send"></i>
+                        إرسال الرسالة
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <i data-lucide="book-open"></i>
+                        </div>
+                        <div class="logo-text">
+                            <h1>مدرسة قرآنية</h1>
+                            <span>مسجد الفضيل الورثلي</span>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        نسعى لتقديم أفضل تعليم قرآني في بيئة إسلامية آمنة ومحفزة
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#departments">الأقسام</a></li>
+                        <li><a href="#stats">إحصائياتنا</a></li>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>الأقسام</h4>
+                    <ul>
+                        <li><a href="#departments">قسم التحضيري</a></li>
+                        <li><a href="#departments">قسم محو الأمية</a></li>
+                        <li><a href="#departments">قسم المتمدرسين</a></li>
+                        <li><a href="#departments">قسم تحفيظ النساء</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>تواصل معنا</h4>
+                    <p><i data-lucide="phone"></i> <span dir="ltr">+966 XX XXX XXXX</span></p>
+                    <p><i data-lucide="mail"></i> info@alfadel.edu</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>جميع الحقوق محفوظة © 2026 - مدرسة قرآنية بمسجد الفضيل الورثلي</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-overlay" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">
+                <i data-lucide="x"></i>
+            </button>
+            <div id="modalBody">
+                <!-- Content will be injected dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Attendance Modal -->
+    <div class="modal attendance-modal" id="attendanceModal">
+        <div class="modal-overlay" onclick="closeAttendanceModal()"></div>
+        <div class="modal-content attendance-modal-content">
+            <button class="modal-close" onclick="closeAttendanceModal()">
+                <i data-lucide="x"></i>
+            </button>
+            <div id="attendanceModalBody">
+                <!-- Dynamic content -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Print Preview Modal -->
+    <div class="modal print-preview-modal" id="printPreviewModal">
+        <div class="modal-overlay" onclick="closePrintPreview()"></div>
+        <div class="modal-content print-modal-content">
+            <button class="modal-close" onclick="closePrintPreview()">
+                <i data-lucide="x"></i>
+            </button>
+            <div id="printPreviewContent">
+                <!-- Dynamic content -->
+            </div>
+            <div class="print-actions">
+                <button class="btn btn-primary" onclick="downloadPDF()">
+                    <i data-lucide="download"></i>
+                    تحميل PDF
+                </button>
+                <button class="btn btn-secondary" onclick="window.print()">
+                    <i data-lucide="printer"></i>
+                    طباعة مباشرة
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Toast -->
+    <div class="toast" id="toast">
+        <div class="toast-icon">
+            <i data-lucide="check-circle"></i>
+        </div>
+        <div class="toast-content">
+            <h4>تم الإرسال بنجاح</h4>
+            <p>شكراً لتواصلك معنا</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+
+<script>
+/**
+ * Iframe 元素高亮注入脚本
+ * 需要在目标网站中引入此脚本来支持跨域 iframe 高亮功能
+ *
+ * 使用方法：
+ * 1. 将此脚本添加到目标网站的 HTML 中
+ * 2. 或通过浏览器扩展、用户脚本等方式注入
+ */
+
+(function () {
+  "use strict";
+
+  // 检查是否在 iframe 中
+  if (window.self === window.top) {
+    return; // 不在 iframe 中，不执行
+  }
+
+  // 检查是否已经初始化过
+  if (window.__iframeHighlightInitialized) {
+    return;
+  }
+  window.__iframeHighlightInitialized = true;
+  console.log("Iframe 高亮脚本已加载");
+
+  // 创建高亮覆盖层
+  var overlay = document.createElement("div");
+  overlay.id = "iframe-highlight-overlay";
+  overlay.style.cssText = "\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100vw;\n    height: 100vh;\n    pointer-events: none;\n    z-index: 999999;\n    overflow: hidden;\n  ";
+
+  // 创建悬停高亮框（虚线边框）
+  var highlightBox = document.createElement("div");
+  highlightBox.id = "iframe-highlight-box";
+  highlightBox.style.cssText = "\n    position: absolute;\n    border: 2px dashed #007AFF;\n    background: rgba(0, 122, 255, 0.08);\n    pointer-events: none;\n    display: none;\n    transition: all 0.1s ease;\n    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.8);\n    border-radius: 2px;\n  ";
+
+  // 创建选中节点的常驻高亮框（实线边框）
+  var selectedBox = document.createElement("div");
+  selectedBox.id = "iframe-selected-box";
+  selectedBox.style.cssText = "\n    position: absolute;\n    border: 2px solid #007AFF;\n    pointer-events: none;\n    display: none;\n    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.9), 0 0 8px rgba(255, 107, 53, 0.4);\n    border-radius: 2px;\n    z-index: 1000000;\n  ";
+
+  // 创建悬停标签显示
+  var tagLabel = document.createElement("div");
+  tagLabel.id = "iframe-tag-label";
+  tagLabel.style.cssText = "\n    position: absolute;\n    background: #007AFF;\n    color: white;\n    padding: 2px 6px;\n    font-size: 11px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n    border-radius: 2px;\n    pointer-events: none;\n    display: none;\n    white-space: nowrap;\n    z-index: 1000001;\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n    font-weight: 500;\n  ";
+
+  // 创建选中节点标签
+  var selectedLabel = document.createElement("div");
+  selectedLabel.id = "iframe-selected-label";
+  selectedLabel.style.cssText = "\n    position: absolute;\n    background: #007AFF;\n    color: white;\n    padding: 3px 8px;\n    font-size: 11px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n    border-radius: 3px;\n    pointer-events: none;\n    display: none;\n    white-space: nowrap;\n    z-index: 1000002;\n    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);\n    font-weight: 600;\n  ";
+  overlay.appendChild(highlightBox);
+  overlay.appendChild(selectedBox);
+  overlay.appendChild(tagLabel);
+  overlay.appendChild(selectedLabel);
+  document.body.appendChild(overlay);
+
+  // 存储当前选中的元素
+  var selectedElement = null;
+  var highlightEnabled = false;
+
+  // 更新选中元素的高亮显示
+  function updateSelectedHighlight(element) {
+    console.log("updateSelectedHighlight called with:", element);
+    if (!element) {
+      selectedBox.style.display = "none";
+      selectedLabel.style.display = "none";
+      selectedElement = null;
+      console.log("Cleared selected highlight");
+      return;
+    }
+    selectedElement = element;
+    var rect = element.getBoundingClientRect();
+    console.log("Selected element rect:", rect);
+
+    // 更新选中高亮框位置
+    selectedBox.style.display = "block";
+    selectedBox.style.left = "".concat(rect.left - 2, "px");
+    selectedBox.style.top = "".concat(rect.top - 2, "px");
+    selectedBox.style.width = "".concat(rect.width + 4, "px");
+    selectedBox.style.height = "".concat(rect.height + 4, "px");
+
+    // 更新选中标签位置和内容
+    selectedLabel.style.display = "block";
+    selectedLabel.textContent = "\u2713 <".concat(element.tagName.toLowerCase(), ">");
+
+    // 计算标签位置，确保不超出视窗
+    var labelTop = rect.top - 28;
+    var labelLeft = rect.left;
+
+    // 如果标签会超出顶部，显示在元素下方
+    if (labelTop < 5) {
+      labelTop = rect.bottom + 5;
+    }
+
+    // 如果标签会超出右侧，向左调整
+    var labelWidth = selectedLabel.offsetWidth || 100; // 预估宽度
+    if (labelLeft + labelWidth > window.innerWidth - 10) {
+      labelLeft = window.innerWidth - labelWidth - 10;
+    }
+    selectedLabel.style.left = "".concat(Math.max(5, labelLeft), "px");
+    selectedLabel.style.top = "".concat(labelTop, "px");
+    console.log("Selected highlight positioned at:", {
+      left: selectedBox.style.left,
+      top: selectedBox.style.top,
+      width: selectedBox.style.width,
+      height: selectedBox.style.height
+    });
+  }
+  function getElementSelector(element) {
+    if (!(element instanceof Element)) throw new Error('Argument must be a DOM element');
+    var segments = [];
+    var current = element;
+    while (current !== document.documentElement) {
+      var selector = '';
+      // 优先检查唯一ID
+      if (current.id && document.querySelectorAll("#".concat(current.id)).length === 1) {
+        segments.unshift("#".concat(current.id));
+        break; // ID唯一，无需继续向上
+      }
+
+      // 生成类名选择器（取第一个有效类名）
+      var classes = Array.from(current.classList).filter(function (c) {
+        return !c.startsWith('js-');
+      });
+      var className = classes.length > 0 ? ".".concat(classes[0]) : '';
+
+      // 生成位置索引（nth-child）
+      var tag = current.tagName.toLowerCase();
+      if (!className) {
+        var siblings = Array.from(current.parentNode.children);
+        var index = siblings.findIndex(function (el) {
+          return el === current;
+        }) + 1;
+        selector = "".concat(tag, ":nth-child(").concat(index, ")");
+      } else {
+        selector = className;
+      }
+      segments.unshift(selector);
+      current = current.parentElement;
+    }
+
+    // 处理根元素
+    if (current === document.documentElement) {
+      segments.unshift('html');
+    }
+    return segments.join(' > ');
+  }
+
+  // 获取元素文本内容
+  function getElementText(element) {
+    var _element$textContent;
+    if (element.tagName === "INPUT") {
+      return element.value || element.placeholder || "";
+    }
+    if (element.tagName === "TEXTAREA") {
+      return element.value || element.placeholder || "";
+    }
+    var text = ((_element$textContent = element.textContent) === null || _element$textContent === void 0 ? void 0 : _element$textContent.trim()) || "";
+    return text.length > 50 ? text.substring(0, 50) + "..." : text;
+  }
+
+  // 获取元素属性信息
+  function getElementAttributes(element) {
+    var attrs = {};
+    for (var i = 0; i < element.attributes.length; i++) {
+      var attr = element.attributes[i];
+      attrs[attr.name] = attr.value;
+    }
+    return attrs;
+  }
+
+  // 鼠标悬停事件处理
+  function handleMouseOver(e) {
+    if (!highlightEnabled) return;
+    var target = e.target;
+    if (!target || target === overlay || target === highlightBox || target === tagLabel || target === selectedBox || target === selectedLabel) {
+      return;
+    }
+
+    // 避免高亮 html 和 body 元素
+    if (target === document.documentElement || target === document.body) {
+      return;
+    }
+
+    // 如果是已选中的元素，不显示悬停高亮
+    if (target === selectedElement) {
+      highlightBox.style.display = "none";
+      tagLabel.style.display = "none";
+      return;
+    }
+    var rect = target.getBoundingClientRect();
+    var selector = getElementSelector(target);
+    var text = getElementText(target);
+    var attributes = getElementAttributes(target);
+
+    // 更新悬停高亮框位置
+    highlightBox.style.display = "block";
+    highlightBox.style.left = "".concat(rect.left - 2, "px");
+    highlightBox.style.top = "".concat(rect.top - 2, "px");
+    highlightBox.style.width = "".concat(rect.width + 4, "px");
+    highlightBox.style.height = "".concat(rect.height + 4, "px");
+
+    // 更新标签位置和内容
+    tagLabel.style.display = "block";
+    tagLabel.textContent = "<".concat(target.tagName.toLowerCase(), ">");
+
+    // 计算标签位置，确保不超出视窗
+    var labelTop = rect.top - 22;
+    var labelLeft = rect.left;
+
+    // 如果标签会超出顶部，显示在元素下方
+    if (labelTop < 0) {
+      labelTop = rect.bottom + 5;
+    }
+
+    // 如果标签会超出右侧，向左调整
+    if (labelLeft + tagLabel.offsetWidth > window.innerWidth) {
+      labelLeft = window.innerWidth - tagLabel.offsetWidth - 5;
+    }
+    tagLabel.style.left = "".concat(Math.max(0, labelLeft), "px");
+    tagLabel.style.top = "".concat(labelTop, "px");
+
+    // 发送消息到父窗口
+    var elementInfo = {
+      tagName: target.tagName.toLowerCase(),
+      rect: {
+        left: rect.left,
+        top: rect.top,
+        right: rect.right,
+        bottom: rect.bottom,
+        width: rect.width,
+        height: rect.height,
+        x: rect.x,
+        y: rect.y
+      },
+      selector: selector,
+      text: text,
+      attributes: attributes,
+      url: window.location.href,
+      path: window.location.pathname,
+      timestamp: Date.now()
+    };
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-hover",
+        data: elementInfo,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 鼠标离开事件处理
+  function handleMouseOut(e) {
+    if (!highlightEnabled) return;
+    var relatedTarget = e.relatedTarget;
+
+    // 如果鼠标移动到高亮相关元素上，不隐藏高亮
+    if (relatedTarget && (relatedTarget === highlightBox || relatedTarget === tagLabel || relatedTarget === overlay || relatedTarget === selectedBox || relatedTarget === selectedLabel)) {
+      return;
+    }
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-hover",
+        data: null,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 点击事件处理
+  function handleClick(e) {
+    var target = e.target;
+    if (!target || target === overlay || target === highlightBox || target === tagLabel || target === selectedBox || target === selectedLabel) {
+      return;
+    }
+
+    // 避免处理 html 和 body 元素
+    if (target === document.documentElement || target === document.body) {
+      return;
+    }
+
+    // 检查是否是交互元素，这些元素需要保留默认行为
+    var isInteractiveElement = ['input', 'textarea', 'select', 'button', 'a'].includes(target.tagName.toLowerCase());
+
+    // 如果高亮功能启用，对于非交互元素阻止默认行为和事件传播
+    if (highlightEnabled) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    var rect = target.getBoundingClientRect();
+    var selector = getElementSelector(target);
+    var text = getElementText(target);
+    var attributes = getElementAttributes(target);
+    console.log("Element clicked:", {
+      tagName: target.tagName,
+      selector: selector,
+      rect: rect
+    });
+
+    // 立即更新选中高亮
+    updateSelectedHighlight(target);
+
+    // 隐藏悬停高亮，因为现在是选中状态
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    var elementInfo = {
+      tagName: target.tagName.toLowerCase(),
+      rect: {
+        left: rect.left,
+        top: rect.top,
+        right: rect.right,
+        bottom: rect.bottom,
+        width: rect.width,
+        height: rect.height,
+        x: rect.x,
+        y: rect.y
+      },
+      selector: selector,
+      text: text,
+      attributes: attributes,
+      url: window.location.href,
+      path: window.location.pathname,
+      timestamp: Date.now()
+    };
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-click",
+        data: elementInfo,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 监听来自父窗口的消息
+  function handleParentMessage(event) {
+    console.log("Received message from parent:", event.data);
+    if (event.data.type === "iframe-highlight-toggle") {
+      var enabled = event.data.enabled;
+      console.log("Highlight toggle:", enabled);
+      if (enabled) {
+        enableHighlight();
+      } else {
+        disableHighlight();
+      }
+    } else if (event.data.type === "enable-iframe-highlight") {
+      console.log("Enable iframe highlight");
+      enableHighlight();
+    } else if (event.data.type === "disable-iframe-highlight") {
+      console.log("Disable iframe highlight");
+      disableHighlight();
+    } else if (event.data.type === "toggle-iframe-highlight") {
+      var _enabled = event.data.enabled !== undefined ? event.data.enabled : !highlightEnabled;
+      console.log("Toggle iframe highlight to:", _enabled);
+      if (_enabled) {
+        enableHighlight();
+      } else {
+        disableHighlight();
+      }
+    } else if (event.data.type === "update-selected-element") {
+      var selector = event.data.selector;
+      console.log("Update selected element with selector:", selector);
+      if (selector) {
+        try {
+          var element = document.querySelector(selector);
+          console.log("Found element by selector:", element);
+          updateSelectedHighlight(element);
+        } catch (error) {
+          console.warn("Failed to select element:", error);
+          updateSelectedHighlight(null);
+        }
+      } else {
+        updateSelectedHighlight(null);
+      }
+    } else if (event.data.type === "clear-selected-element") {
+      console.log("Clear selected element");
+      updateSelectedHighlight(null);
+    }
+  }
+
+  // 启用高亮功能
+  function enableHighlight() {
+    console.log("Enabling highlight");
+    document.addEventListener("mouseover", handleMouseOver, true);
+    document.addEventListener("mouseout", handleMouseOut, true);
+    document.addEventListener("click", handleClick, true);
+    highlightEnabled = true;
+    overlay.style.display = "block";
+  }
+
+  // 禁用高亮功能
+  function disableHighlight() {
+    console.log("Disabling highlight");
+    highlightEnabled = false;
+    // 保持事件监听器，但通过 highlightEnabled 变量控制行为
+    // 这样可以保留选中状态的显示
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    // 不隐藏 selectedBox 和 selectedLabel，保留选中状态
+  }
+
+  // 完全禁用高亮功能（移除所有监听器）
+  function fullyDisableHighlight() {
+    console.log("Fully disabling highlight");
+    highlightEnabled = false;
+    document.removeEventListener("mouseover", handleMouseOver, true);
+    document.removeEventListener("mouseout", handleMouseOut, true);
+    document.removeEventListener("click", handleClick, true);
+    overlay.style.display = "none";
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    selectedBox.style.display = "none";
+    selectedLabel.style.display = "none";
+  }
+
+  // 添加事件监听
+  enableHighlight();
+  window.addEventListener("message", handleParentMessage);
+
+  // 暴露全局函数供外部调用
+  window.__iframeHighlightControl = {
+    enable: enableHighlight,
+    disable: disableHighlight,
+    fullyDisable: fullyDisableHighlight,
+    isEnabled: function isEnabled() {
+      return highlightEnabled;
+    },
+    getSelectedElement: function getSelectedElement() {
+      return selectedElement;
+    },
+    updateSelected: updateSelectedHighlight,
+    // 通过消息发送开关控制
+    sendToggleMessage: function sendToggleMessage(enabled) {
+      window.parent.postMessage({
+        type: 'iframe-highlight-status',
+        enabled: enabled || highlightEnabled,
+        source: 'iframe-highlight-injector'
+      }, '*');
+    }
+  };
+
+  // 通知父窗口脚本已加载
+  try {
+    window.parent.postMessage({
+      type: "iframe-highlight-ready",
+      data: {
+        url: window.location.href,
+        userAgent: navigator.userAgent,
+        timestamp: Date.now()
+      },
+      source: "iframe-highlight-injector"
+    }, "*");
+  } catch (error) {
+    console.warn("无法发送就绪消息到父窗口:", error);
+  }
+
+  // 清理函数
+  window.__iframeHighlightCleanup = function () {
+    fullyDisableHighlight();
+    window.removeEventListener("message", handleParentMessage);
+    if (overlay.parentElement) {
+      overlay.parentElement.removeChild(overlay);
+    }
+    delete window.__iframeHighlightInitialized;
+    delete window.__iframeHighlightCleanup;
+  };
+})();
+
+</script>
+
+<script>
+/**
+ * Iframe 元素高亮注入脚本
+ * 需要在目标网站中引入此脚本来支持跨域 iframe 高亮功能
+ *
+ * 使用方法：
+ * 1. 将此脚本添加到目标网站的 HTML 中
+ * 2. 或通过浏览器扩展、用户脚本等方式注入
+ */
+
+(function () {
+  "use strict";
+
+  // 检查是否在 iframe 中
+  if (window.self === window.top) {
+    return; // 不在 iframe 中，不执行
+  }
+
+  // 检查是否已经初始化过
+  if (window.__iframeHighlightInitialized) {
+    return;
+  }
+  window.__iframeHighlightInitialized = true;
+  console.log("Iframe 高亮脚本已加载");
+
+  // 创建高亮覆盖层
+  var overlay = document.createElement("div");
+  overlay.id = "iframe-highlight-overlay";
+  overlay.style.cssText = "\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100vw;\n    height: 100vh;\n    pointer-events: none;\n    z-index: 999999;\n    overflow: hidden;\n  ";
+
+  // 创建悬停高亮框（虚线边框）
+  var highlightBox = document.createElement("div");
+  highlightBox.id = "iframe-highlight-box";
+  highlightBox.style.cssText = "\n    position: absolute;\n    border: 2px dashed #007AFF;\n    background: rgba(0, 122, 255, 0.08);\n    pointer-events: none;\n    display: none;\n    transition: all 0.1s ease;\n    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.8);\n    border-radius: 2px;\n  ";
+
+  // 创建选中节点的常驻高亮框（实线边框）
+  var selectedBox = document.createElement("div");
+  selectedBox.id = "iframe-selected-box";
+  selectedBox.style.cssText = "\n    position: absolute;\n    border: 2px solid #007AFF;\n    pointer-events: none;\n    display: none;\n    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.9), 0 0 8px rgba(255, 107, 53, 0.4);\n    border-radius: 2px;\n    z-index: 1000000;\n  ";
+
+  // 创建悬停标签显示
+  var tagLabel = document.createElement("div");
+  tagLabel.id = "iframe-tag-label";
+  tagLabel.style.cssText = "\n    position: absolute;\n    background: #007AFF;\n    color: white;\n    padding: 2px 6px;\n    font-size: 11px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n    border-radius: 2px;\n    pointer-events: none;\n    display: none;\n    white-space: nowrap;\n    z-index: 1000001;\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n    font-weight: 500;\n  ";
+
+  // 创建选中节点标签
+  var selectedLabel = document.createElement("div");
+  selectedLabel.id = "iframe-selected-label";
+  selectedLabel.style.cssText = "\n    position: absolute;\n    background: #007AFF;\n    color: white;\n    padding: 3px 8px;\n    font-size: 11px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n    border-radius: 3px;\n    pointer-events: none;\n    display: none;\n    white-space: nowrap;\n    z-index: 1000002;\n    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);\n    font-weight: 600;\n  ";
+  overlay.appendChild(highlightBox);
+  overlay.appendChild(selectedBox);
+  overlay.appendChild(tagLabel);
+  overlay.appendChild(selectedLabel);
+  document.body.appendChild(overlay);
+
+  // 存储当前选中的元素
+  var selectedElement = null;
+  var highlightEnabled = false;
+
+  // 更新选中元素的高亮显示
+  function updateSelectedHighlight(element) {
+    console.log("updateSelectedHighlight called with:", element);
+    if (!element) {
+      selectedBox.style.display = "none";
+      selectedLabel.style.display = "none";
+      selectedElement = null;
+      console.log("Cleared selected highlight");
+      return;
+    }
+    selectedElement = element;
+    var rect = element.getBoundingClientRect();
+    console.log("Selected element rect:", rect);
+
+    // 更新选中高亮框位置
+    selectedBox.style.display = "block";
+    selectedBox.style.left = "".concat(rect.left - 2, "px");
+    selectedBox.style.top = "".concat(rect.top - 2, "px");
+    selectedBox.style.width = "".concat(rect.width + 4, "px");
+    selectedBox.style.height = "".concat(rect.height + 4, "px");
+
+    // 更新选中标签位置和内容
+    selectedLabel.style.display = "block";
+    selectedLabel.textContent = "\u2713 <".concat(element.tagName.toLowerCase(), ">");
+
+    // 计算标签位置，确保不超出视窗
+    var labelTop = rect.top - 28;
+    var labelLeft = rect.left;
+
+    // 如果标签会超出顶部，显示在元素下方
+    if (labelTop < 5) {
+      labelTop = rect.bottom + 5;
+    }
+
+    // 如果标签会超出右侧，向左调整
+    var labelWidth = selectedLabel.offsetWidth || 100; // 预估宽度
+    if (labelLeft + labelWidth > window.innerWidth - 10) {
+      labelLeft = window.innerWidth - labelWidth - 10;
+    }
+    selectedLabel.style.left = "".concat(Math.max(5, labelLeft), "px");
+    selectedLabel.style.top = "".concat(labelTop, "px");
+    console.log("Selected highlight positioned at:", {
+      left: selectedBox.style.left,
+      top: selectedBox.style.top,
+      width: selectedBox.style.width,
+      height: selectedBox.style.height
+    });
+  }
+  function getElementSelector(element) {
+    if (!(element instanceof Element)) throw new Error('Argument must be a DOM element');
+    var segments = [];
+    var current = element;
+    while (current !== document.documentElement) {
+      var selector = '';
+      // 优先检查唯一ID
+      if (current.id && document.querySelectorAll("#".concat(current.id)).length === 1) {
+        segments.unshift("#".concat(current.id));
+        break; // ID唯一，无需继续向上
+      }
+
+      // 生成类名选择器（取第一个有效类名）
+      var classes = Array.from(current.classList).filter(function (c) {
+        return !c.startsWith('js-');
+      });
+      var className = classes.length > 0 ? ".".concat(classes[0]) : '';
+
+      // 生成位置索引（nth-child）
+      var tag = current.tagName.toLowerCase();
+      if (!className) {
+        var siblings = Array.from(current.parentNode.children);
+        var index = siblings.findIndex(function (el) {
+          return el === current;
+        }) + 1;
+        selector = "".concat(tag, ":nth-child(").concat(index, ")");
+      } else {
+        selector = className;
+      }
+      segments.unshift(selector);
+      current = current.parentElement;
+    }
+
+    // 处理根元素
+    if (current === document.documentElement) {
+      segments.unshift('html');
+    }
+    return segments.join(' > ');
+  }
+
+  // 获取元素文本内容
+  function getElementText(element) {
+    var _element$textContent;
+    if (element.tagName === "INPUT") {
+      return element.value || element.placeholder || "";
+    }
+    if (element.tagName === "TEXTAREA") {
+      return element.value || element.placeholder || "";
+    }
+    var text = ((_element$textContent = element.textContent) === null || _element$textContent === void 0 ? void 0 : _element$textContent.trim()) || "";
+    return text.length > 50 ? text.substring(0, 50) + "..." : text;
+  }
+
+  // 获取元素属性信息
+  function getElementAttributes(element) {
+    var attrs = {};
+    for (var i = 0; i < element.attributes.length; i++) {
+      var attr = element.attributes[i];
+      attrs[attr.name] = attr.value;
+    }
+    return attrs;
+  }
+
+  // 鼠标悬停事件处理
+  function handleMouseOver(e) {
+    if (!highlightEnabled) return;
+    var target = e.target;
+    if (!target || target === overlay || target === highlightBox || target === tagLabel || target === selectedBox || target === selectedLabel) {
+      return;
+    }
+
+    // 避免高亮 html 和 body 元素
+    if (target === document.documentElement || target === document.body) {
+      return;
+    }
+
+    // 如果是已选中的元素，不显示悬停高亮
+    if (target === selectedElement) {
+      highlightBox.style.display = "none";
+      tagLabel.style.display = "none";
+      return;
+    }
+    var rect = target.getBoundingClientRect();
+    var selector = getElementSelector(target);
+    var text = getElementText(target);
+    var attributes = getElementAttributes(target);
+
+    // 更新悬停高亮框位置
+    highlightBox.style.display = "block";
+    highlightBox.style.left = "".concat(rect.left - 2, "px");
+    highlightBox.style.top = "".concat(rect.top - 2, "px");
+    highlightBox.style.width = "".concat(rect.width + 4, "px");
+    highlightBox.style.height = "".concat(rect.height + 4, "px");
+
+    // 更新标签位置和内容
+    tagLabel.style.display = "block";
+    tagLabel.textContent = "<".concat(target.tagName.toLowerCase(), ">");
+
+    // 计算标签位置，确保不超出视窗
+    var labelTop = rect.top - 22;
+    var labelLeft = rect.left;
+
+    // 如果标签会超出顶部，显示在元素下方
+    if (labelTop < 0) {
+      labelTop = rect.bottom + 5;
+    }
+
+    // 如果标签会超出右侧，向左调整
+    if (labelLeft + tagLabel.offsetWidth > window.innerWidth) {
+      labelLeft = window.innerWidth - tagLabel.offsetWidth - 5;
+    }
+    tagLabel.style.left = "".concat(Math.max(0, labelLeft), "px");
+    tagLabel.style.top = "".concat(labelTop, "px");
+
+    // 发送消息到父窗口
+    var elementInfo = {
+      tagName: target.tagName.toLowerCase(),
+      rect: {
+        left: rect.left,
+        top: rect.top,
+        right: rect.right,
+        bottom: rect.bottom,
+        width: rect.width,
+        height: rect.height,
+        x: rect.x,
+        y: rect.y
+      },
+      selector: selector,
+      text: text,
+      attributes: attributes,
+      url: window.location.href,
+      path: window.location.pathname,
+      timestamp: Date.now()
+    };
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-hover",
+        data: elementInfo,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 鼠标离开事件处理
+  function handleMouseOut(e) {
+    if (!highlightEnabled) return;
+    var relatedTarget = e.relatedTarget;
+
+    // 如果鼠标移动到高亮相关元素上，不隐藏高亮
+    if (relatedTarget && (relatedTarget === highlightBox || relatedTarget === tagLabel || relatedTarget === overlay || relatedTarget === selectedBox || relatedTarget === selectedLabel)) {
+      return;
+    }
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-hover",
+        data: null,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 点击事件处理
+  function handleClick(e) {
+    var target = e.target;
+    if (!target || target === overlay || target === highlightBox || target === tagLabel || target === selectedBox || target === selectedLabel) {
+      return;
+    }
+
+    // 避免处理 html 和 body 元素
+    if (target === document.documentElement || target === document.body) {
+      return;
+    }
+
+    // 检查是否是交互元素，这些元素需要保留默认行为
+    var isInteractiveElement = ['input', 'textarea', 'select', 'button', 'a'].includes(target.tagName.toLowerCase());
+
+    // 如果高亮功能启用，对于非交互元素阻止默认行为和事件传播
+    if (highlightEnabled) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    var rect = target.getBoundingClientRect();
+    var selector = getElementSelector(target);
+    var text = getElementText(target);
+    var attributes = getElementAttributes(target);
+    console.log("Element clicked:", {
+      tagName: target.tagName,
+      selector: selector,
+      rect: rect
+    });
+
+    // 立即更新选中高亮
+    updateSelectedHighlight(target);
+
+    // 隐藏悬停高亮，因为现在是选中状态
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    var elementInfo = {
+      tagName: target.tagName.toLowerCase(),
+      rect: {
+        left: rect.left,
+        top: rect.top,
+        right: rect.right,
+        bottom: rect.bottom,
+        width: rect.width,
+        height: rect.height,
+        x: rect.x,
+        y: rect.y
+      },
+      selector: selector,
+      text: text,
+      attributes: attributes,
+      url: window.location.href,
+      path: window.location.pathname,
+      timestamp: Date.now()
+    };
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-click",
+        data: elementInfo,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 监听来自父窗口的消息
+  function handleParentMessage(event) {
+    console.log("Received message from parent:", event.data);
+    if (event.data.type === "iframe-highlight-toggle") {
+      var enabled = event.data.enabled;
+      console.log("Highlight toggle:", enabled);
+      if (enabled) {
+        enableHighlight();
+      } else {
+        disableHighlight();
+      }
+    } else if (event.data.type === "enable-iframe-highlight") {
+      console.log("Enable iframe highlight");
+      enableHighlight();
+    } else if (event.data.type === "disable-iframe-highlight") {
+      console.log("Disable iframe highlight");
+      disableHighlight();
+    } else if (event.data.type === "toggle-iframe-highlight") {
+      var _enabled = event.data.enabled !== undefined ? event.data.enabled : !highlightEnabled;
+      console.log("Toggle iframe highlight to:", _enabled);
+      if (_enabled) {
+        enableHighlight();
+      } else {
+        disableHighlight();
+      }
+    } else if (event.data.type === "update-selected-element") {
+      var selector = event.data.selector;
+      console.log("Update selected element with selector:", selector);
+      if (selector) {
+        try {
+          var element = document.querySelector(selector);
+          console.log("Found element by selector:", element);
+          updateSelectedHighlight(element);
+        } catch (error) {
+          console.warn("Failed to select element:", error);
+          updateSelectedHighlight(null);
+        }
+      } else {
+        updateSelectedHighlight(null);
+      }
+    } else if (event.data.type === "clear-selected-element") {
+      console.log("Clear selected element");
+      updateSelectedHighlight(null);
+    }
+  }
+
+  // 启用高亮功能
+  function enableHighlight() {
+    console.log("Enabling highlight");
+    document.addEventListener("mouseover", handleMouseOver, true);
+    document.addEventListener("mouseout", handleMouseOut, true);
+    document.addEventListener("click", handleClick, true);
+    highlightEnabled = true;
+    overlay.style.display = "block";
+  }
+
+  // 禁用高亮功能
+  function disableHighlight() {
+    console.log("Disabling highlight");
+    highlightEnabled = false;
+    // 保持事件监听器，但通过 highlightEnabled 变量控制行为
+    // 这样可以保留选中状态的显示
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    // 不隐藏 selectedBox 和 selectedLabel，保留选中状态
+  }
+
+  // 完全禁用高亮功能（移除所有监听器）
+  function fullyDisableHighlight() {
+    console.log("Fully disabling highlight");
+    highlightEnabled = false;
+    document.removeEventListener("mouseover", handleMouseOver, true);
+    document.removeEventListener("mouseout", handleMouseOut, true);
+    document.removeEventListener("click", handleClick, true);
+    overlay.style.display = "none";
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    selectedBox.style.display = "none";
+    selectedLabel.style.display = "none";
+  }
+
+  // 添加事件监听
+  enableHighlight();
+  window.addEventListener("message", handleParentMessage);
+
+  // 暴露全局函数供外部调用
+  window.__iframeHighlightControl = {
+    enable: enableHighlight,
+    disable: disableHighlight,
+    fullyDisable: fullyDisableHighlight,
+    isEnabled: function isEnabled() {
+      return highlightEnabled;
+    },
+    getSelectedElement: function getSelectedElement() {
+      return selectedElement;
+    },
+    updateSelected: updateSelectedHighlight,
+    // 通过消息发送开关控制
+    sendToggleMessage: function sendToggleMessage(enabled) {
+      window.parent.postMessage({
+        type: 'iframe-highlight-status',
+        enabled: enabled || highlightEnabled,
+        source: 'iframe-highlight-injector'
+      }, '*');
+    }
+  };
+
+  // 通知父窗口脚本已加载
+  try {
+    window.parent.postMessage({
+      type: "iframe-highlight-ready",
+      data: {
+        url: window.location.href,
+        userAgent: navigator.userAgent,
+        timestamp: Date.now()
+      },
+      source: "iframe-highlight-injector"
+    }, "*");
+  } catch (error) {
+    console.warn("无法发送就绪消息到父窗口:", error);
+  }
+
+  // 清理函数
+  window.__iframeHighlightCleanup = function () {
+    fullyDisableHighlight();
+    window.removeEventListener("message", handleParentMessage);
+    if (overlay.parentElement) {
+      overlay.parentElement.removeChild(overlay);
+    }
+    delete window.__iframeHighlightInitialized;
+    delete window.__iframeHighlightCleanup;
+  };
+})();
+
+</script>
+</body>
+</html>
