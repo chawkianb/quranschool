@@ -1,0 +1,17 @@
+name: Build Android APK
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - name: Build APK
+        run: |
+          # هذه الخطوة ستقوم بتحويل ملفات الويب الخاصة بك إلى تطبيق
+          # سنستخدم أداة بسيطة لهذا الغرض
+          echo "Building your Quran School APK..."
