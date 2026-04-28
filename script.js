@@ -1,5 +1,5 @@
 /**
- * مدرسة قرآنية - مسجد الفضيل الورثلي
+ * مدرسة قرآنية - مسجد الفضيل الورثلاني
  * Main JavaScript File
  */
 
@@ -558,7 +558,7 @@ const teachersData = {
         ]
     },
     3: {
-        name: 'الشيخ عبدالله سالم',
+        name: 'الأستاذة فهيمة ڨعاص ',
         specialty: 'قسم التحضيري',
         students: 18,
         present: 16,
@@ -780,7 +780,7 @@ function generateMonthlyReport(teacherId) {
             <div class="print-list">
                 <div class="print-list-header">
                     <div>
-                        <h2>مدرسة القرآن الكريم - مسجد الفضيل الورثلي</h2>
+                        <h2>مدرسة القرآن الكريم - مسجد الفضيل الورثلاني</h2>
                         <p>تقرير الحضور الشهري</p>
                     </div>
                     <div class="print-info">
@@ -877,7 +877,7 @@ function printTeacherList(teacherId) {
             <div class="print-list-header">
                 <div>
                     <h2>مدرسة القرآن الكريم</h2>
-                    <p>مسجد الفضيل الورثلي</p>
+                    <p>مسجد الفضيل الورثلاني</p>
                 </div>
                 <div class="print-info">
                     <p><strong>الأستاذ:</strong> ${teacher.name}</p>
